@@ -1,7 +1,7 @@
 LyncNC
 ======
 
-SIML based plugin that integrates MS lync for mac 2011 with the Notification Center
+SIMBL based plugin that integrates MS lync for mac 2011 with the Notification Center
 
 Compiled version 0.6 (first public release):<br/>
 https://github.com/Daij-Djan/LyncNC/raw/master/Binary-LyNC-0.6%2BEasySIMBL.zip
