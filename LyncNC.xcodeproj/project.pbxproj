@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B45472841874CDA7003F2DDE /* LyncNC-Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B454727E1874CDA7003F2DDE /* LyncNC-Icon.icns */; };
+		B45472861874CDA7003F2DDE /* LyncNC.m in Sources */ = {isa = PBXBuildFile; fileRef = B45472821874CDA7003F2DDE /* LyncNC.m */; };
+		B473D2D616962B910097F9C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B473D2D516962B910097F9C4 /* Cocoa.framework */; };
+		B4BE29A91874EA86000EBA77 /* NSWindow+WillOrderIn.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BE29A81874EA86000EBA77 /* NSWindow+WillOrderIn.m */; };
+		B4BE29AC1874EC5C000EBA77 /* NSObject+MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BE29AB1874EC5C000EBA77 /* NSObject+MethodSwizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B438E06B1875A41C009C1145 /* LyncCommonAlertWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LyncCommonAlertWindowController.h; sourceTree = "<group>"; };
+		B454727E1874CDA7003F2DDE /* LyncNC-Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "LyncNC-Icon.icns"; sourceTree = "<group>"; };
+		B454727F1874CDA7003F2DDE /* LyncNC-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LyncNC-Info.plist"; sourceTree = "<group>"; };
+		B45472801874CDA7003F2DDE /* LyncNC-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LyncNC-Prefix.pch"; sourceTree = "<group>"; };
+		B45472811874CDA7003F2DDE /* LyncNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyncNC.h; sourceTree = "<group>"; };
+		B45472821874CDA7003F2DDE /* LyncNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyncNC.m; sourceTree = "<group>"; };
+		B473D2D216962B910097F9C4 /* LyncNC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyncNC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B473D2D516962B910097F9C4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B473D2D816962B910097F9C4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B473D2D916962B910097F9C4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B473D2DA16962B910097F9C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4BE29A71874EA86000EBA77 /* NSWindow+WillOrderIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+WillOrderIn.h"; sourceTree = "<group>"; };
+		B4BE29A81874EA86000EBA77 /* NSWindow+WillOrderIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+WillOrderIn.m"; sourceTree = "<group>"; };
+		B4BE29AA1874EC5C000EBA77 /* NSObject+MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzle.h"; sourceTree = "<group>"; };
+		B4BE29AB1874EC5C000EBA77 /* NSObject+MethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzle.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B473D2CF16962B910097F9C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B473D2D616962B910097F9C4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B454727B1874CDA7003F2DDE /* LyncNC */ = {
+			isa = PBXGroup;
+			children = (
+				B454727E1874CDA7003F2DDE /* LyncNC-Icon.icns */,
+				B454727F1874CDA7003F2DDE /* LyncNC-Info.plist */,
+				B45472801874CDA7003F2DDE /* LyncNC-Prefix.pch */,
+				B45472811874CDA7003F2DDE /* LyncNC.h */,
+				B45472821874CDA7003F2DDE /* LyncNC.m */,
+				B4BE29A71874EA86000EBA77 /* NSWindow+WillOrderIn.h */,
+				B4BE29A81874EA86000EBA77 /* NSWindow+WillOrderIn.m */,
+				B438E06B1875A41C009C1145 /* LyncCommonAlertWindowController.h */,
+			);
+			path = LyncNC;
+			sourceTree = "<group>";
+		};
+		B473D2C916962B910097F9C4 = {
+			isa = PBXGroup;
+			children = (
+				B4BE29AA1874EC5C000EBA77 /* NSObject+MethodSwizzle.h */,
+				B4BE29AB1874EC5C000EBA77 /* NSObject+MethodSwizzle.m */,
+				B454727B1874CDA7003F2DDE /* LyncNC */,
+				B473D2D416962B910097F9C4 /* Frameworks */,
+				B473D2D316962B910097F9C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B473D2D316962B910097F9C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B473D2D216962B910097F9C4 /* LyncNC.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B473D2D416962B910097F9C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B473D2D516962B910097F9C4 /* Cocoa.framework */,
+				B473D2D716962B910097F9C4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B473D2D716962B910097F9C4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B473D2D816962B910097F9C4 /* AppKit.framework */,
+				B473D2D916962B910097F9C4 /* CoreData.framework */,
+				B473D2DA16962B910097F9C4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B473D2D116962B910097F9C4 /* LyncNC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B473D2E416962B910097F9C4 /* Build configuration list for PBXNativeTarget "LyncNC" */;
+			buildPhases = (
+				B473D2CE16962B910097F9C4 /* Sources */,
+				B473D2CF16962B910097F9C4 /* Frameworks */,
+				B473D2D016962B910097F9C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyncNC;
+			productName = GrowlLync;
+			productReference = B473D2D216962B910097F9C4 /* LyncNC.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B473D2CA16962B910097F9C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = info.pich;
+			};
+			buildConfigurationList = B473D2CD16962B910097F9C4 /* Build configuration list for PBXProject "LyncNC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B473D2C916962B910097F9C4;
+			productRefGroup = B473D2D316962B910097F9C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B473D2D116962B910097F9C4 /* LyncNC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B473D2D016962B910097F9C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45472841874CDA7003F2DDE /* LyncNC-Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B473D2CE16962B910097F9C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45472861874CDA7003F2DDE /* LyncNC.m in Sources */,
+				B4BE29A91874EA86000EBA77 /* NSWindow+WillOrderIn.m in Sources */,
+				B4BE29AC1874EC5C000EBA77 /* NSObject+MethodSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B473D2E216962B910097F9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B473D2E316962B910097F9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B473D2E516962B910097F9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(TARGET_NAME)/$(TARGET_NAME)-Prefix.pch";
+				INFOPLIST_FILE = "$(TARGET_NAME)/$(TARGET_NAME)-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/SIMBL/Plugins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B473D2E616962B910097F9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(TARGET_NAME)/$(TARGET_NAME)-Prefix.pch";
+				INFOPLIST_FILE = "$(TARGET_NAME)/$(TARGET_NAME)-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/SIMBL/Plugins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B473D2CD16962B910097F9C4 /* Build configuration list for PBXProject "LyncNC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B473D2E216962B910097F9C4 /* Debug */,
+				B473D2E316962B910097F9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B473D2E416962B910097F9C4 /* Build configuration list for PBXNativeTarget "LyncNC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B473D2E516962B910097F9C4 /* Debug */,
+				B473D2E616962B910097F9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B473D2CA16962B910097F9C4 /* Project object */;
+}
