@@ -15,3 +15,16 @@ https://github.com/Daij-Djan/LyncNC/raw/master/Binary-LyNC-0.6%2BEasySIMBL.zip
 
 ####Credits
 - Mike Solomon for the SIMBL framework that enables patches like these.
+
+####install/uninstall
+
+- an **installer is included** in the binary package
+
+- to uninstall LyncNC: 
+
+	just delete the one file it copies AT:
+
+     	~/Library/Application Support/SIMBL/Plugins/LyncNC.bundle
+         (you can do it with the finder, ~ = your home folder)
+
+	Then restart Lync and there is NO trace of the plugin 
